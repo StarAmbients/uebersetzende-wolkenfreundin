@@ -1,0 +1,15 @@
+name: Docs Spellcheck
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '**/*.md'
+jobs:
+  cspell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v6
+        with:
+          files: |
+            **/*.md

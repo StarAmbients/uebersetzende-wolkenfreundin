@@ -1,0 +1,4 @@
+pairs:
+  - source: de
+    target: pt-BR
+    providers: [ deepl, microsoft ]
