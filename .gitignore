@@ -4,7 +4,9 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .idea/
 node_modules/
 
