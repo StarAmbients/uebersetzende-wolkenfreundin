@@ -1,0 +1,14 @@
+{
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "ruff.enable": true,
+  "ruff.organizeImports": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
