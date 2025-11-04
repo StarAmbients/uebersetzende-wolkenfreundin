@@ -1,0 +1,10 @@
+# Ignore Python, VSCode and system files
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+
