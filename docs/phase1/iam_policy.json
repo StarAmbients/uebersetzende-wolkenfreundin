@@ -1,0 +1,18 @@
+gcloud iam service-accounts create translator-svc \
+  --display-name="Translator Service Account"
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:translator-svc@$PROJECT_ID.iam.gserviceaccount.com" \
+  --role="roles/storage.objectViewer"
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:translator-svc@$PROJECT_ID.iam.gserviceaccount.com" \
+  --role="roles/storage.objectCreator"
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:translator-svc@$PROJECT_ID.iam.gserviceaccount.com" \
+  --role="roles/aiplatform.user"
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:translator-svc@$PROJECT_ID.iam.gserviceaccount.com" \
+  --role="roles/secretmanager.secretAccessor"
