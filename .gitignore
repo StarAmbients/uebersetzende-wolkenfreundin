@@ -2,11 +2,15 @@
 .venv/
 __pycache__/
 *.pyc
-.env
 .DS_Store
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 .idea/
 node_modules/
+# Never commit secrets or keys
+*.json
+*.key
+*.env
+
 
