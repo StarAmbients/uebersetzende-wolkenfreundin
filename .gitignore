@@ -1,16 +1,87 @@
-# Ignore Python, VSCode and system files
-.venv/
+# =======================================
+# Übersetzende Wolkenfreundin Project
+# Security & Cloud Configuration
+# =======================================
+
+# --- General ---
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
 __pycache__/
-*.pyc
-.DS_Store
+.env
+.env.*
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 .idea/
-node_modules/
-# Never commit secrets or keys
-*.json
-*.key
-*.env
+*.code-workspace
 
+# --- Python / Cloud Run ---
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.envrc
+*.sqlite3
+
+# --- GCP / Credentials / Secrets ---
+# Never commit secrets or keys
+# (API keys, service accounts, JSON creds)
+*.json
+*.yaml
+*.yml
+secrets/
+secret_*/
+keys/
+credentials/
+*.key
+*.pem
+*.p12
+*.crt
+*.der
+
+# --- Node / Frontend (if used later) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Terraform / Infrastructure ---
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# --- OS / Editor junk ---
+*.orig
+*~
+*.bak
+*.tmp
+*.sublime-workspace
+*.sublime-project
+
+# --- Docs / Local builds ---
+/docs/**/screenshots/
+/docs/**/tmp/
+/docs/**/drafts/
+*.pdf~
+*.docx~
+*.odt~
+
+# --- Ignore local test outputs ---
+test_outputs/
+local_test/
+tmp/
+artifacts/
+
+# --- Allow official documentation PDFs ---
+!docs/**/*.pdf
 
