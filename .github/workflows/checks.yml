@@ -12,5 +12,5 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install ruff black
-      - run: ruff .
+      - run: ruff check .
       - run: black --check .
