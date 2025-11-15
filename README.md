@@ -1,4 +1,6 @@
 # ☁️ Übersetzende Wolkenfreundin -- *The Cloud Translator Friend*
+[![CI](https://github.com/StarAmbients/uebersetzende-wolkenfreundin/actions/workflows/checks.yml/badge.svg)](https://github.com/StarAmbients/uebersetzende-wolkenfreundin/actions/workflows/checks.yml)
+
 
 ### **AI in Service of Light**
 
@@ -29,38 +31,38 @@ Search.
   --------------- ---------------- -------------------------------------------------- --------------
   ☁ **Phase 1 --  Google Cloud     📘 [Phase 1                                        🟢 Complete /
   Environment     configuration,   README](./docs/phase1/README_Phase1_final.md)      🟡 In Progress
-  Setup &         IAM, budgets,                                                       
-  Foundations**   and translation                                                     
-                  key setup                                                           
-                  (DeepL +                                                            
-                  Microsoft                                                           
-                  Translator).                                                        
+  Setup &         IAM, budgets,
+  Foundations**   and translation
+                  key setup
+                  (DeepL +
+                  Microsoft
+                  Translator).
 
   📚 **Phase 2 -- Creation of the  📘 [Phase 2                                        🟡 In Progress
-  Knowledge Base  contextual       README](./docs/phase2/README_Phase2_template.md)   
-  (RAG)**         knowledge                                                           
-                  repository and                                                      
-                  glossary                                                            
-                  integration for                                                     
-                  improved                                                            
-                  translation                                                         
-                  accuracy.                                                           
+  Knowledge Base  contextual       README](./docs/phase2/README_Phase2_template.md)
+  (RAG)**         knowledge
+                  repository and
+                  glossary
+                  integration for
+                  improved
+                  translation
+                  accuracy.
 
   💬 **Phase 3 -- Automated        📘 [Phase 3                                        ⏳ Upcoming
-  Translation     translation      README](./docs/phase3/README_Phase3_template.md)   
-  Pipeline        workflow                                                            
-  (MVP)**         integrating                                                         
-                  DeepL, Microsoft                                                    
-                  Translator, and                                                     
-                  Gemini AI for                                                       
-                  post-editing.                                                       
+  Translation     translation      README](./docs/phase3/README_Phase3_template.md)
+  Pipeline        workflow
+  (MVP)**         integrating
+                  DeepL, Microsoft
+                  Translator, and
+                  Gemini AI for
+                  post-editing.
 
   ⚙️ **Phase      Verification →   📘 [Project Phase                                  🔵 Planned
-  4--8**          Review →         Overview](./docs/Project_Phase_Overview.md)        
-                  Governance →                                                        
-                  Multilingual                                                        
-                  Expansion →                                                         
-                  Launch                                                              
+  4--8**          Review →         Overview](./docs/Project_Phase_Overview.md)
+                  Governance →
+                  Multilingual
+                  Expansion →
+                  Launch
   --------------------------------------------------------------------------------------------------
 
 > Each phase README includes 🎯 Objectives · 🧩 Components · ⚙️ Setup
