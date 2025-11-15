@@ -2,12 +2,17 @@
   "recommendations": [
     "github.copilot",
     "github.vscode-pull-request-github",
+
     "ms-python.python",
+    "ms-python.vscode-pylance",
     "ms-python.black-formatter",
     "charliermarsh.ruff",
+
+    "mechatroner.rainbow-csv",
+
     "redhat.vscode-yaml",
     "yzhang.markdown-all-in-one",
     "editorconfig.editorconfig",
-    "ms-azuretools.vscode-docker"
+    "ms-azuretools.vscode-docker",
   ]
 }
