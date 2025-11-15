@@ -3,14 +3,11 @@
 target-version = "py311"
 line-length = 88
 
+[lint]
 # Which rule families to enable:
 # E,F = pycodestyle + pyflakes
 # B   = bugbear (common bug patterns)
 # I   = import sorting
 select = ["E", "F", "B", "I"]
-
-# Rules we want Ruff to autofix if we later run `ruff fix`
-fix = true
-
-[lint]
 # We can add ignores here later if any rule feels too strict
+
