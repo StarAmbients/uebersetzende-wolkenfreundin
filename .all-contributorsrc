@@ -20,7 +20,11 @@
         "doc",
         "ideas",
         "maintenance",
-        "projectManagement"
+        "projectManagement",
+        "test",
+        "design",
+        "tool",
+        "tutorial"
       ]
     }
   ],
