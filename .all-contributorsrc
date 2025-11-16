@@ -9,5 +9,21 @@
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "StarAmbients",
+      "name": "Debora Schuch da Rosa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2199062?v=4",
+      "profile": "https://beacons.ai/deboraschuch",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "maintenance",
+        "projectManagement"
+      ]
+    }
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular"
 }

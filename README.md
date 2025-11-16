@@ -385,6 +385,19 @@ Thank you for supporting this initiative with your energy, clarity, and light.
 Thanks goes to these wonderful people 💛
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://beacons.ai/deboraschuch"><img src="https://avatars.githubusercontent.com/u/2199062?v=4?s=100" width="100px;" alt="Debora Schuch da Rosa"/><br /><sub><b>Debora Schuch da Rosa</b></sub></a><br /><a href="https://github.com/StarAmbients/uebersetzende-wolkenfreundin/commits?author=StarAmbients" title="Code">💻</a> <a href="https://github.com/StarAmbients/uebersetzende-wolkenfreundin/commits?author=StarAmbients" title="Documentation">📖</a> <a href="#ideas-StarAmbients" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-StarAmbients" title="Maintenance">🚧</a> <a href="#projectManagement-StarAmbients" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://allcontributors.org) specification.
