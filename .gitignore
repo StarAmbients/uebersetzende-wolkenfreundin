@@ -36,6 +36,7 @@ venv/
 # Never commit secrets or keys
 # (API keys, service accounts, JSON creds)
 *.json
+!cspell.json
 *.yaml
 *.yml
 secrets/
