@@ -1,6 +1,10 @@
 # ☁️ Übersetzende Wolkenfreundin -- *The Cloud Translator Friend*
 [![CI](https://github.com/StarAmbients/uebersetzende-wolkenfreundin/actions/workflows/checks.yml/badge.svg)](https://github.com/StarAmbients/uebersetzende-wolkenfreundin/actions/workflows/checks.yml)
 
+![Contributors](https://img.shields.io/github/contributors/StarAmbients/uebersetzende-wolkenfreundin)
+
+![Contributors Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+
 
 ### **AI in Service of Light**
 
@@ -373,6 +377,18 @@ If you’re experienced — welcome too!
 Every contribution helps the project grow.
 
 Thank you for supporting this initiative with your energy, clarity, and light.
+
+------------------------------------------------------------------------
+
+## ✨ Contributors
+
+Thanks goes to these wonderful people 💛
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://allcontributors.org) specification.
+Contributions of any kind are welcome!
 
 ------------------------------------------------------------------------
 
