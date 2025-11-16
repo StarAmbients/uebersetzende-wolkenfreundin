@@ -1,0 +1,15 @@
+# Development-only dependencies
+
+# Code quality
+ruff
+black
+
+# Testing
+pytest
+pytest-cov
+
+# Optional (future)
+# mypy
+# pre-commit
+# ipython
+# devtools
