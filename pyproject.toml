@@ -1,3 +1,12 @@
+[project]
+name = "uebersetzende-wolkenfreundin"
+version = "0.1.0"
+description = "Übersetzende Wolkenfreundin – Cloud-based translation assistant for the Bruno Gröning Circle of Friends."
+requires-python = ">=3.11,<3.12"
+
+# We can keep dependencies empty for now as we use requirements.txt
+# dependencies = []
+
 [tool.black]
 line-length = 88
 target-version = ["py311"]
