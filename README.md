@@ -97,6 +97,69 @@ cd uebersetzende-wolkenfreundin
 # Explore documentation
 open docs/Project_Phase_Overview.md
 ```
+------------------------------------------------------------------------
+
+## 👩‍💻 Developer Quick Start (Local Setup)
+
+To contribute to **Übersetzende Wolkenfreundin**, follow this quick setup guide.
+
+### 1. Install prerequisites
+- Python **3.11**
+- Git
+- VS Code (recommended)
+- GNU Make (Windows users: install via MSYS2, Scoop, or Chocolatey)
+- Recommended VS Code extensions (auto-suggested via `.vscode/extensions.json`)
+
+---
+
+### 2. Create the development environment
+
+```bash
+# From the project root
+py -3.11 -m venv .venv
+source .venv/Scripts/activate  # Git Bash on Windows
+pip install -U pip
+```
+
+---
+
+### 3. Install dependencies
+
+```bash
+pip install -r cloud-run/requirements.txt      # Production dependencies
+pip install -r requirements-dev.txt            # Development tools
+```
+
+---
+
+### 4. Run tests & code quality checks
+
+```bash
+make lint
+make test
+```
+
+---
+
+### 5. Auto-format code
+
+```bash
+make format
+```
+
+---
+
+### 6. Run the app locally
+
+```bash
+cd cloud-run
+make run
+```
+
+[Local server running at http://localhost:8080](http://localhost:8080)
+
+For the full detailed developer guide, see:
+👉 **[`/docs/developer-setup.md`](docs/developer-setup.md)**
 
 ------------------------------------------------------------------------
 
@@ -155,6 +218,161 @@ meaningful human goals.
   **Collaboration Model**  [`CONTRIBUTING.md`](CONTRIBUTING.md) +           Contribution flow, CI,
                            `.github/`                                       and review process
   --------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## 🤝 Contributing Guidelines
+
+First of all — thank you for your interest in contributing to **Übersetzende Wolkenfreundin**!
+This project is part of a larger initiative to support the Bruno Gröning Circle of Friends with clarity, care, and technical excellence.
+Even small contributions can have a meaningful impact.
+
+Here’s how to participate effectively and respectfully:
+
+---
+
+### 1. 🧱 Set Up Your Development Environment
+
+Follow the quick start guide in the README to:
+
+- install Python 3.11
+- create the `.venv` virtual environment
+- install production + dev dependencies
+- run tests and linters
+- run the app locally
+
+For full details, see:
+👉 **[`/docs/developer-setup.md`](docs/developer-setup.md)**
+
+---
+
+### 2. 🌿 Branching Model
+
+Please follow this workflow:
+
+- Work in a **feature branch**
+  ```bash
+  git checkout -b feat/my-feature-name
+  ```
+- Use short, meaningful names:
+  - feat/glossary-parser
+  - fix/rag-query-bug
+  - chore/ci-update
+
+- Avoid making changes directly on `main`.
+
+---
+
+### 3. 🧹 Code Style & Quality
+
+Before committing:
+
+Run linting and formatting:
+  ```bash
+  make lint
+  make format
+  ```
+
+Run the tests:
+  ```bash
+  make test
+  ```
+Your PR should pass:
+
+  - Ruff (linting)
+  - Black (formatting)
+  - Pytest (test suite)
+  - GitHub CI checks
+
+---
+
+### 4. ✨ Commit Message Format
+
+Please follow Conventional Commits:
+
+| Type   | Meaning                      |
+|--------|-------------------------------|
+| `feat`:  | new feature                   |
+| `fix`:   | bug fix                       |
+| `docs`:  | documentation update          |
+| `test`:  | tests added or improved       |
+| `chore`: | build, configs, dependencies  |
+
+Examples:
+  ```bash
+  feat(rag): add glossary-based context expansion
+  fix(api): correct 500 error when uploading PDF
+  docs: add Phase 2 developer setup guide
+  chore(ci): align GitHub Actions with Python 3.11
+  ```
+
+---
+
+### 5. 🔍 Pull Requests
+
+When opening a PR:
+
+- Describe what you changed
+
+- Explain why you changed it
+
+- If relevant, include screenshots or logs
+
+- Ensure all CI checks are green
+
+- Keep PRs small and focused
+
+Small PRs are easier to review, test, and merge.
+
+---
+
+### 6. 💬 Communication Principles
+
+Since this project touches sacred content and a spiritual mission:
+
+- Be respectful
+
+- Assume good intentions
+
+- Document decisions clearly
+
+- Prioritize accuracy and clarity
+
+- Value collaboration and learning
+
+We are here to uplift each other — technically and spiritually.
+
+---
+
+### 7. 🔒 Security
+
+Never commit:
+
+- API keys
+
+- Google Cloud service account files
+
+- `.env` files
+
+- private datasets
+
+- internal or confidential reports
+
+The .gitignore already protects many of these, but please remain careful.
+
+If you find a security issue, report it privately.
+
+---
+
+### 8. 🎉 Welcome!
+
+If you’re new to open source — welcome!
+
+If you’re experienced — welcome too!
+
+Every contribution helps the project grow.
+
+Thank you for supporting this initiative with your energy, clarity, and light.
 
 ------------------------------------------------------------------------
 
